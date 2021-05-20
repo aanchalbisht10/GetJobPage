@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> First Page</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo1.jpg" class="logo">
+            <ul>
+                <li><a href="E:\getjob\AboutUs1.html">About Us</a></li>
+                <li>
+                <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">SCHOOLS/UNIVERSITY</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://www.cjmdehradun.in/">Convent of Jesus and Mary</a>
+    <a href="http://teresaschoolkgm.org/">St.Theresa</a>
+    <a href="http://stjosephacademy.in/">St.Joseph's</a>
+    <a href="https://www.dituniversity.edu.in/">DIT</a>
+    <a href="https://www.iuu.ac/">IMS</a>
+    <a href="https://uttaranchaluniversity.ac.in/">UU</a>
+  </div>
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+                <li><a href="file:///E:/getjob/file.html">Jobs</a></li>
+                <li><a href="file:///E:/getjob/contactus.html">Contact Us</a></li>
+                <li><a href="file:///E:/getjob/loginpage.html">Login </a></li>
+                <li><a href="file:///E:/getjob/signup.html">Register </a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1> INSTANT GET JOB</h1>
+            <p> An online job portal to get best teaching jobs around.</p>  
+        </div>
+    
+<div class="icon">
+   <a href="https://www.facebook.com/GetJob-111371721052952" class="fa fa-facebook"></a>
+   <a href="https://www.linkedin.com/in/get-job-5b60b120b/" class="fa fa-linkedin"></a>
+   <a href="https://www.instagram.com/getjobstartup/" class="fa fa-instagram"></a>
+   <a href="#" class="fa fa-youtube"></a>
+ </div>
+</div>
+</body>
+</html>
