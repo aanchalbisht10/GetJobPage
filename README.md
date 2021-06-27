@@ -1,6 +1,6 @@
 # Website GETJOB
 
-Screenshots of the final websit.
+Screenshots of the final website.
 
 Front Page:
 ![Screenshot (405)](https://user-images.githubusercontent.com/81909534/123534343-28f2ae00-d73a-11eb-9494-fcc22264110f.png)
